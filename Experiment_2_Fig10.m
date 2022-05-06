@@ -45,7 +45,7 @@ BPD_result = IterGSS_modified(y, rho, k_sparsity, Method)';
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Plot
-fig=figure(8);
+fig=figure(10);
 set(fig,'position',[100 100 800 1000]);
 subplot(5,2,1)
 plot(t, y);
